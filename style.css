@@ -68,10 +68,36 @@ header {
     height: 100%;
 }
 
+footer{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+}
 .keyboardArea{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    width: 50%;
     height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .kbsection{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.kbitem{
+    /* border: 1px solid blue; */
+    border-radius: 1rem;
+    width: 8%;
+    height: 100%;
+    color: white;
+    background-color: gray;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
 }
