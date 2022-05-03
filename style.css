@@ -102,3 +102,9 @@ footer{
     cursor: pointer;
     user-select: none;
 }
+
+
+
+.modal-dialog{
+    margin-top: 1rem;
+}
