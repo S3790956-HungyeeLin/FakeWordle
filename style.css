@@ -121,6 +121,13 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.statistic_header{
+    /* border: 1px solid red; */
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .statistic_item{
     /* border: 1px solid red; */
     width: 18%;
