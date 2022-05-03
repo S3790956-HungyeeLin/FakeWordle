@@ -9,11 +9,13 @@ body {
 
 header {
     /* border: 1px solid blue; */
-    height: 3rem;
+    height: 5rem;
     display: flex;
     justify-content: space-between;
 }
-
+hr{
+    margin: 0;
+}
 .icon {
     /* border: 1px solid red; */
     width: 10%;
