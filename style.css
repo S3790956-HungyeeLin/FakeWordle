@@ -1,6 +1,7 @@
 * {
     all: 0;
     margin: 0;
+    user-select: none;
 }
 
 body {
@@ -107,4 +108,30 @@ footer{
 
 .modal-dialog{
     margin-top: 1rem;
+}
+.modal_statistic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.statistic_info{
+    /* border: 1px solid blue; */
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.statistic_item{
+    /* border: 1px solid red; */
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.statistic_description{
+    font-size: 1rem;
+    height: 50%;
+    text-align: center;
 }
